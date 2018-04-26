@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/proton-cluster.svg)](https://badge.fury.io/js/proton-cluster)
+[![Build Status](https://travis-ci.org/protontype/proton-cluster.svg?branch=master)](https://travis-ci.org/protontype/proton-cluster) [![npm version](https://badge.fury.io/js/proton-cluster.svg)](https://badge.fury.io/js/proton-cluster)
 
 # A clustered starter for Node.js applications
 
