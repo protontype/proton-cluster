@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/proton-cluster.svg)](https://badge.fury.io/js/proton-cluster)
+
 # A clustered starter for Node.js applications
 
 ## Starting workers by CPUs
