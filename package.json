@@ -1,8 +1,8 @@
 {
   "name": "proton-cluster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A clustered starter for Node.js applications",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "test": "tsc && mocha -t 30000 dist/test/**/*.js"
   },
