@@ -14,7 +14,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
     result["default"] = mod;
     return result;
-};
+}
 Object.defineProperty(exports, "__esModule", { value: true });
 const assert = __importStar(require("assert"));
 const mocha_typescript_1 = require("mocha-typescript");
@@ -27,7 +27,7 @@ let ProtonClusterTest = class ProtonClusterTest {
         });
         ProtonCluster_1.ProtonCluster.onDisconnect(worker => {
             assert.equal(worker.process.pid != null, true);
-            console.log(`Cluster ${worker.process.pid} exit 0`);
+            console.log(`Cluster ${worker.process.pid} Disconnected`);
             worker.process.exit(0);
         });
         ProtonCluster_1.ProtonCluster.startByCPUS(() => {
