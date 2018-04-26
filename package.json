@@ -1,0 +1,31 @@
+{
+  "name": "proton-cluster",
+  "version": "1.0.0",
+  "description": "A clustered starter for Node.js applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && mocha -t 30000 dist/test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protontype/proton-cluster.git"
+  },
+  "keywords": [
+    "protontype",
+    "nodejs",
+    "cluster"
+  ],
+  "author": "Humberto Machado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/protontype/proton-cluster/issues"
+  },
+  "homepage": "https://github.com/protontype/proton-cluster#readme",
+  "dependencies": {
+    "protontype": "^2.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "mocha-typescript": "^1.1.12"
+  }
+}
