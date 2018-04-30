@@ -27,7 +27,7 @@ let ProtonClusterTest = class ProtonClusterTest {
         });
         ProtonCluster_1.ProtonCluster.onDisconnect(worker => {
             assert.equal(worker.process.pid != null, true);
-            console.log(`Cluster ${worker.process.pid} exit 0`);
+            console.log(`Cluster ${worker.process.pid} Disconnected`);
             worker.process.exit(0);
         });
         ProtonCluster_1.ProtonCluster.startByCPUS(() => {
