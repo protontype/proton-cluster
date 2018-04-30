@@ -1,6 +1,6 @@
 {
   "name": "proton-cluster",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A clustered starter for Node.js applications",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
